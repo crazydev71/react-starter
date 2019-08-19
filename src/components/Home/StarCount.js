@@ -10,7 +10,7 @@ const StarCount = ({ testData, getTestData }) => {
   }, [getTestData]);
 
   return (
-    <div>
+    <div className="star-count">
       <h2>*** Example for using redux ***</h2>
       <h3>CRA repository start count: {testData.stargazers_count}</h3>
     </div>
