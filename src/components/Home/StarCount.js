@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { fromTest } from 'store/selectors';
 import { testActions } from 'store/actions';
 
 const StarCount = ({ testData, getTestData }) => {
@@ -28,7 +27,7 @@ StarCount.defaultProps = {
 };
 
 const mapStateToProps = state => ({
-  testData: fromTest.testData(state),
+  testData: state.test.testData,
 });
 
 const mapDispatchToProps = dispatch => ({

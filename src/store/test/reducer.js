@@ -1,4 +1,4 @@
-import { initialState } from './selectors';
+import initialState from './initialState';
 
 import {
   GET_TEST_DATA_REQUEST,
