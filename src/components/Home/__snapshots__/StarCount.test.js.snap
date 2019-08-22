@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarCount component Should render StarCount component. 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "sagaTask": Object {
+        "@@redux-saga/TASK": true,
+        "cancel": [Function],
+        "cont": [Function],
+        "context": Object {},
+        "end": [Function],
+        "error": [Function],
+        "id": 1,
+        "isAborted": [Function],
+        "isCancelled": [Function],
+        "isRoot": true,
+        "isRunning": [Function],
+        "joiners": Array [],
+        "meta": Object {
+          "location": undefined,
+          "name": "rootSaga",
+        },
+        "queue": Object {
+          "abort": [Function],
+          "addTask": [Function],
+          "cancelAll": [Function],
+          "getTasks": [Function],
+        },
+        "result": [Function],
+        "setContext": [Function],
+        "toPromise": [Function],
+      },
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(ConnectedRouterWithContext)
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <div
+      className="App"
+    >
+      <header
+        className="App-header"
+      >
+        <img
+          alt="logo"
+          className="App-logo"
+          src="logo.svg"
+        />
+      </header>
+      <main>
+        <Switch>
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/"
+          />
+          <Route
+            component={[Function]}
+          />
+        </Switch>
+      </main>
+    </div>
+  </Connect(ConnectedRouterWithContext)>
+</Provider>
+`;

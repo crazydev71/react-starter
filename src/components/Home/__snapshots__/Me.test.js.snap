@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Me component Should render Me component. 1`] = `
+<div
+  className="me"
+>
+  <h2>
+    *** Example for using useEffect ***
+  </h2>
+  <h3>
+    My random name: 
+  </h3>
+</div>
+`;
