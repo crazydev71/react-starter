@@ -13,7 +13,7 @@ const Me = () => {
 
   useEffect(() => {
     fetch('https://randomuser.me/api/')
-      .then(results => results.json())
+      .then((results) => results.json())
       .then((data) => {
         setUser(data.results[0]);
       });
@@ -21,7 +21,7 @@ const Me = () => {
 
   return (
     <div className="me">
-      <h2>*** Example for using useEffect ***</h2>
+      <h2>*** Example for using useEffect! ***</h2>
       <h3>My random name: {user ? `${user.name.first} ${user.name.last}` : ''}</h3>
     </div>
   );

@@ -26,12 +26,12 @@ StarCount.defaultProps = {
   getTestData: () => {},
 };
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   testData: state.test.testData,
 });
 
-const mapDispatchToProps = dispatch => ({
-  getTestData: payload => dispatch(testActions.getTestDataRequest(payload)),
+const mapDispatchToProps = (dispatch) => ({
+  getTestData: (payload) => dispatch(testActions.getTestDataRequest(payload)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(StarCount);

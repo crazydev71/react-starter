@@ -1,4 +1,3 @@
-/* globals window */
 import { applyMiddleware, compose, createStore, combineReducers } from 'redux';
 import { createBrowserHistory } from 'history';
 import createSagaMiddleware from 'redux-saga';
